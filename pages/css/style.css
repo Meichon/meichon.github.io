@@ -77,3 +77,15 @@
   .bd-mode-toggle .dropdown-menu .active .bi {
     display: block !important;
   }
+.separa {
+  margin:auto;
+}
+.bg-hero1 {
+  background: linear-gradient(to bottom right, #000008, rgb(0, 0, 44),rgb(0, 0, 90), rgb(0, 24, 119));
+}
+#particles-js {
+
+  margin:auto;
+  background: linear-gradient(to bottom right, #000008, rgb(0, 0, 80),rgb(1, 1, 133), rgb(1, 32, 158));
+
+}
