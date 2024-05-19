@@ -31,5 +31,7 @@
   position: absolute;
 }
 
-
+#pie {
+margin-bottom: 0px;
+z-index:0px;
 }
