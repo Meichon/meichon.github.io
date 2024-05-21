@@ -31,5 +31,11 @@
   position: absolute;
 }
 
-
+.boton {
+  z-index: 1;
+  position: relative;
+}
+#pie {
+margin-bottom: 0px;
+z-index:0px;
 }
