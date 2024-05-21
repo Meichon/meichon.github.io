@@ -1,6 +1,11 @@
+body{
+
+}
+
 .section {
   position: relative;
   overflow: hidden;
+
 }
 
 .section-shaped {
@@ -16,13 +21,19 @@
   overflow: hidden;
   display: flex;
   align-items: center;
+  background-image: url('../img/datacenter3500x2000.png'); 
+  background-size: cover;
 }
 
 .light-blue {
-  background: linear-gradient(to bottom right, #000008, rgb(0, 0, 80),rgb(1, 1, 133), rgb(1, 32, 158), rgb(0, 0, 80));
+  background: linear-gradient(
+    to bottom right, #000008,
+     rgb(0, 0, 80),
+     rgb(1, 1, 133),
+     rgb(1, 32, 158),
+     rgb(0, 0, 80)
+     );
 }
-
-
 
 #particles-js {
   top: 0;
@@ -38,4 +49,18 @@
 #pie {
 margin-bottom: 0px;
 z-index:0px;
+}
+
+
+
+.section-market{
+  margin-top:100px;
+  margin-bottom: 100px;
+}
+
+hr.featurette-divider{
+  margin-top:50px;
+  margin-bottom: 50px;
+  border: solid 4px black;
+  border-radius: 2px; 
 }
