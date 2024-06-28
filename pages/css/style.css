@@ -25,7 +25,7 @@ body{
   background-size: cover;
 }
 
-.light-blue {
+/* .light-blue {
   background: linear-gradient(
     to bottom right, #000008,
      rgb(0, 0, 80),
@@ -34,7 +34,7 @@ body{
      rgb(0, 0, 80)
      );
 }
-
+*/
 #particles-js {
   top: 0;
   height: 100%;
