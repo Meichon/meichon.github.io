@@ -1,0 +1,10 @@
+[30-Jul-2024 17:26:13 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/zbitscl/public_html/send_email.php:8
+Stack trace:
+#0 /home/zbitscl/public_html/send_email.php(40): enviarCorreo(NULL, NULL, NULL, NULL, NULL)
+#1 {main}
+  thrown in /home/zbitscl/public_html/send_email.php on line 8
+[01-Aug-2024 14:32:29 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/zbitscl/public_html/send_email.php:8
+Stack trace:
+#0 /home/zbitscl/public_html/send_email.php(40): enviarCorreo(NULL, NULL, NULL, NULL, NULL)
+#1 {main}
+  thrown in /home/zbitscl/public_html/send_email.php on line 8
