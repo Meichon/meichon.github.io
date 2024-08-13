@@ -64,190 +64,184 @@
       <div class="page-header">
         <div class="row">
           <div id="particles-js"></div>
-          <div class="text-center">
-            <div class="col-md-6 transparent-black opacity-75 p-4">
-              <h1 class="display-4 fw-bold text-white oswold">Consultorias TI</h1>
-              <div class="mx-auto">
-                <p class="fs-4 text-white fw-bold">Entregamos valor siendo partners en el desarrollo de tu negocio con soluciones a medida en Cibeseguridad, redes e infraestructura</p>
-                  <a class="btn boton btn-danger btn-lg px-4 me-sm-3 fw-bold" type="button" href="contacto.html">Contactanos</a>
-              </div>
+          <div class="col-md-6 transparent-black p-4">
+            <h1 class="display-4 fw-bold text-white oswold">Consultorias TI</h1>
+            <p class="fs-4 text-white fw-bold">Entregamos valor siendo partners en el desarrollo de herramientas para tu negocio con soluciones a medida en Cibeseguridad, redes e infraestructura</p>
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-outline-danger boton" data-bs-toggle="modal" data-bs-target="#contacto">
+                        Contacto
+                      </button>
+
+                      <!-- Modal -->
+                      <div class="modal fade" id="contacto" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="formulario" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="formaulario"> contacto</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="card-body mx-auto">
+                                    <img class="p-4 mx-auto" src="img/red250x47logo.png" style="width:50%" alt="logo">
+                                    <form>
+                                      <div class="mb-3">
+                                        <label for="input_name" class="form-label">Nombre</label>
+                                        <input type="name" class="form-control" id="input_name" placeholder="Tu nombre">
+                                      </div>
+                                      <div class="mb-3">
+                                        <label for="Input_lastname" class="form-label">Apellido</label>
+                                        <input type="email" class="form-control" id="Input_lastname" placeholder="Tu apellido">
+                                      </div>
+                                      <div class="mb-3">
+                                        <label for="Input_enterprise" class="form-label">Empresa</label>
+                                        <input type="email" class="form-control" id="Input_lastname" placeholder="evilcorp LTDA.">
+                                      </div>
+                                      <div class="mb-3">
+                                        <label for="email" class="form-label">Correo</label>
+                                        <input type="email" class="form-control" id="email" placeholder="nickname@dominio.com">
+                                      </div>
+                                      <div class="mb-3">
+                                        <label for="number" class="form-label">Telefono</label>
+                                        <input type="email" class="form-control" id="email" placeholder="+56 xxxx xxxx">
+                                      </div>
+                                      <div class="mb-3">
+                                        <label for="email" class="form-label">Asunto</label>
+                                        <input type="email" class="form-control" id="email" placeholder="Cotización">
+                                      </div>
+                                      <div class="mb-3">
+                                        <label for="message" class="form-label">Mensaje</label>
+                                        <textarea class="form-control" id="message" rows="3"></textarea>
+                                      </div>
+                                      
+                                    </form>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Cerrar</button>
+                              <button type="button" class="btn btn-outline-danger">Enviar</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
             </div>
           </div>
 
         </div><!--cierro row-->
       </div>
     </div>
-     <!--servicios-->
+     <!--quienes somos-->
 
-     <div class="section-market bg-body-tertiary p-4">
-      <div class="container">
-        <h2 class="display-4 text-center mx-auto my-4">Nuestros servicios</h2>
-        <div class="row">
-            <div class="card-group">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title text-center my-4">Ciberseguridad</h5>
-                    <p class="card-text">Concientizacion, auditoria ISO 27k, NIST, Ley Ciberseguridad, plan de continuidad de negocios, ramsonware. </p>
-                    <div class="card-footer bg-transparent border-success">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header my-4">
-                              <button class="accordion-button collapsed btn btn-danger p-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-ciber" aria-expanded="false" aria-controls="collapse-ciber">
-                                Detalles
-                              </button>
-                            </h2>
-                            <div id="collapse-ciber" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                              <div class="accordion-body my-4">
-                                <strong>Ciberseguridad</strong>, Aumenta la confianza de tus cliente y trabajar bajo los estandares de buenas practicas, forman parte de las nuevas exigencias regulatorias para proveedores de servicois de infraestructura critica.
-                               <br>
-                                <a class="btn boton btn-danger btn-lg px-4 me-sm-3 fw-bold" type="button" href="contacto.html">Contactanos</a>  
-                            </div>
-                            </div>
-                          </div> 
-                    </div>
-                  </div>
+     <div id="servicios" class="servicios">
+      <div class="container h-100">
+        <div class="row  justify-content-center my-5 my-5">
+          <div class="col-md-6 col-lg-6 my-auto pt-4 mx-auto">
+            <h1 class="display-4 fw-bold  orbitron">Quienes Somos</h1>
+            <p clasS="p-4 fs-5">Consultora de servicios en Infraestructura de plataformas de alta concurrencia con soluciciones en ciberseguridad, conectividad, desarrollo web, Servicios Cloud y mas.</p>
+          </div><!--fin col 1-->
+          <div class="col-md-6 col-lg-6 my-auto mx-auto services-section">    
+            <img src="img/logotipo-Presentacion.png">
+          </div><!--fin col 2-->
+        </div><!--fin row-->
+        <hr>
+        <div class="row  justify-content-center my-5 py-5">
+          <div class="col-md-6 col-lg-6 my-auto mx-auto services-section">
+            <img src="img/fondo-op1Rojo150x150.png" style="width: 50%;" alt="Soluciones">
+          </div><!--fin col 1-->
+          <div class="col-md-6 col-lg-6 my-auto">
+            <h1 class="display-4 fw-bold orbitron">Soluciones</h1>
+            <p clasS="p-4 fs-5 justify-content-center">Ciberseguridad con integraciónes de plataformas de monitoreo, concientizacion, capacitaciones basadas en estandares internacionales y regulaciones nacionales </p>
+      
+          </div><!--fin col 2-->
+        </div><!--fin row-->
+      </div><!--fin container-->
+      </div><!--fin servicio id-->
+      <!--formulario de contacto-->
+      
+      <div id="formulario-contacto">
+        <div class="container">
+          <div class="row my-5 py-5">
+            <div class="col-md-6 my-auto mx-auto services-section">
+              <h1 class="display-5 fw-bold orbitron">Consulta!, te esperamos.</h1>
+              <img src="img/contacto1200x900.png" style="width:80%" alt="contacto">
+              <p clasS="p-4 fs-5 justify-content-center">Envianos un correo por medio del formulario y nos comunicaremos en breve.</p>
+            </div>
+            <div class="col-md-6 border rounded p-4">
+              <form>
+                <div class="mb-3">
+                  <label for="input_name" class="form-label">Nombre</label>
+                  <input type="name" class="form-control" id="input_name" placeholder="Tu nombre">
                 </div>
-                <div class="card">
-
-                  <div class="card-body">
-                    <h5 class="card-title text-center my-4">Redes</h5>
-                    <p class="card-text">Administracion de seguridad perimetrales, diseño de red, consultorias de soluciones de conectividad remota, etc..</p>                  
-                    <div class="card-footer bg-transparent border-success">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header my-4">
-                              <button class="accordion-button collapsed btn btn-danger p-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-redes" aria-expanded="false" aria-controls="collapse-redes">
-                                Detalles
-                              </button>
-                            </h2>
-                            <div id="collapse-redes" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                              <div class="accordion-body my-4">
-                                <strong>Redes</strong>, Trabajamos con marcas como cisco, fortinet, Mikrotik, entre otros.
-                              </div>
-                            </div>
-                          </div> 
-                    </div>
-                  </div>
+                <div class="mb-3">
+                  <label for="Input_lastname" class="form-label">Apellido</label>
+                  <input type="email" class="form-control" id="Input_lastname" placeholder="Tu apellido">
                 </div>
-                <div class="card">
-
-                  <div class="card-body">
-                    <h5 class="card-title text-center my-4">Infraestructura</h5>
-                    <p class="card-text">Diseño de soluciones de computo en ambientes locales en la nube o hibridas.</p>
-                    <div class="card-footer bg-transparent border-success">
-                        <div class="accordion-item my-4">
-                            <h2 class="accordion-header">
-                              <button class="accordion-button collapsed btn btn-danger p-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-infra" aria-expanded="false" aria-controls="collapse-infra">
-                                Detalles
-                              </button>
-                            </h2>
-                            <div id="collapse-infra" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                              <div class="accordion-body my-4">
-                                <strong>Infraestructura</strong>, Servicios de computo en ambientes locales y en la nube.
-                              </div>
-                            </div>
-                          </div> 
-        
-                    </div>
-                  </div>
+                <div class="mb-3">
+                  <label for="Input_enterprise" class="form-label">Empresa</label>
+                  <input type="email" class="form-control" id="Input_lastname" placeholder="evilcorp LTDA.">
                 </div>
-              </div>
-      </div><!-- /.row -->
-      </div>
-      </div>
-
-
-<!--formulario contacto-->
-      <div class="container my-4">
-        <div class="row my-4">
-          <div class="col-6 mr-0 border-success mx-auto">
-            hola
-          </div>
-          <div class="col-6">
-            <div class="card mb-3" style="max-width: 700px;">
-                <div class="row g-0">
-                  <div class="col-md-6 mx-auto">
-                    <img src="img/contacto1200x900.png" style="width:80%;" alt="email" class="img-fluid rounded-start mx-auto my-4" alt="mail_img">
-                    
-                  </div><!--fin col-md-6 1 imagen-->
-            <div class="col-md-6">
-                    <div class="card-body">
-
-                      <form>
-                        <div class="mb-3">
-                          <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Tu nombre">
-                        </div>
-                        <div class="mb-3">
-                          <label for="exampleFormControlInput1" class="form-label">Apellido</label>
-                          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Tu apellido">
-                        </div>
-                        <div class="mb-3">
-                          <label for="exampleFormControlInput1" class="form-label">Correo</label>
-                          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nickname@dominio.com">
-                        </div>
-                        <div class="mb-3">
-                          <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                        </div>
-                        <div class="mb-3 form-check">
-                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                        </div>
-                        <button type="submit" class="btn btn-outline-danger mx-4">Submit</button>
-                      </form>
-
-
-            
-                    </div><!--card-body-->
-    
-
-            </div><!-- col-md-6 2 -->
-
+                <div class="mb-3">
+                  <label for="email" class="form-label">Correo</label>
+                  <input type="email" class="form-control" id="email" placeholder="nickname@dominio.com">
                 </div>
+                <div class="mb-3">
+                  <label for="number" class="form-label">Telefono</label>
+                  <input type="email" class="form-control" id="email" placeholder="+56 xxxx xxxx">
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Asunto</label>
+                  <input type="email" class="form-control" id="email" placeholder="Cotización">
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Mensaje</label>
+                  <textarea class="form-control" id="message" rows="3"></textarea>
+                </div>
+      
+                <button type="button" class="btn btn-outline-danger">Enviar</button>
+                
+              </form>
             </div>
           </div>
         </div>
-        </div>
-<!--footer-->
-<div class="bg-body-tertiary" id="pie">
-  <footer class="container">
-    <div class="row p-4">
-     <div class="col-12 col-md">
-       <img src="img/red250x47logo.png" style="width:50%" alt="logo">
-       <small class="d-block mb-3 text-body-secondary">&copy; 2015–2024</small>
-       <p class="text-wrap">Servicios integrales en tecnologia y despliegue de soluciones de ambientes profesionales de alta disponibilidad bajo estandares internacionales.</p>
-     <br>
       </div>
-     <div class="col-6 col-md">
-       <h5>Servicios</h5>
-       <ul class="list-unstyled text-small">
-         <li><a class="link-secondary text-decoration-none" href="#">Soporte</a></li>
-         <li><a class="link-secondary text-decoration-none" href="#">Infraestructura</a></li>
-         <li><a class="link-secondary text-decoration-none" href="#">Redes</a></li>
-         <li><a class="link-secondary text-decoration-none" href="#">Seguridad</a></li>
-         <li><a class="link-secondary text-decoration-none" href="#">Desarrollo</a></li>
-         <li><a class="link-secondary text-decoration-none" href="#">Webhosting</a></li>
-       </ul>
-     </div>
-     <div class="col-6 col-md">
-       <h5>Enlaces de interes</h5>
-       <ul class="list-unstyled text-small">
-         <li><a class="link-secondary text-decoration-none" href="#">Subtel</a></li>
-         <li><a class="link-secondary text-decoration-none" href="#">LACNIC</a></li>
-         <li><a class="link-secondary text-decoration-none" href="#">CSIRT</a></li>
-         <li><a class="link-secondary text-decoration-none" href="#">Ministerio de transportes</a></li>
-       </ul>
-     </div>
-
-
- </footer>
-</div>
-<script src="js/dropdown.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
-<script src="js/particles.js"></script>
-<script src="js/app.js"></script>
-
-
-
-</body>
-</html>
+      <!--footer-->
+      <div class="bg-body-tertiary" id="pie">
+        <footer class="container">
+          <div class="row p-4">
+           <div class="col-12 col-md">
+             <img src="img/red250x47logo.png" style="width:50%" alt="logo">
+             <small class="d-block mb-3 text-body-secondary">&copy; 2015–2024</small>
+             <p class="text-wrap">Servicios integrales en tecnologia y despliegue de soluciones de ambientes profesionales de alta disponibilidad bajo estandares internacionales.</p>
+           <br>
+            </div>
+           <div class="col-6 col-md">
+             <h5>Servicios</h5>
+             <ul class="list-unstyled text-small">
+               <li><a class="link-secondary text-decoration-none" href="#">Soporte</a></li>
+               <li><a class="link-secondary text-decoration-none" href="#">Infraestructura</a></li>
+               <li><a class="link-secondary text-decoration-none" href="#">Redes</a></li>
+               <li><a class="link-secondary text-decoration-none" href="#">Seguridad</a></li>
+               <li><a class="link-secondary text-decoration-none" href="#">Desarrollo</a></li>
+               <li><a class="link-secondary text-decoration-none" href="#">Webhosting</a></li>
+             </ul>
+           </div>
+           <div class="col-6 col-md">
+             <h5>Enlaces de interes</h5>
+             <ul class="list-unstyled text-small">
+               <li><a class="link-secondary text-decoration-none" href="#">Subtel</a></li>
+               <li><a class="link-secondary text-decoration-none" href="#">LACNIC</a></li>
+               <li><a class="link-secondary text-decoration-none" href="#">CSIRT</a></li>
+               <li><a class="link-secondary text-decoration-none" href="#">Ministerio de transportes</a></li>
+             </ul>
+           </div>
+      
+      
+       </footer>
+      </div>
+      <script src="js/dropdown.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+      <script src="js/particles.js"></script>
+      <script src="js/app.js"></script>
+      
+      </body>
+      </html>
+      

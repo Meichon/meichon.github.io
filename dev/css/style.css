@@ -1,7 +1,7 @@
 body{
 font-family: "Oswald", sans-serif;
 font-optical-sizing: auto;
-font-weight: <weight>;
+
 font-style: normal;
 }
 
@@ -9,10 +9,9 @@ font-style: normal;
 .orbitron {
   font-family: "Orbitron", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
 }
-
+/*
 .section {
   position: relative;
   overflow: hidden;
@@ -23,7 +22,7 @@ font-style: normal;
   position: relative;
   overflow: hidden;
 }
-
+*/
 .page-header {
   min-height: 75vh;
   max-height: 999px;
@@ -37,8 +36,9 @@ font-style: normal;
 }
 
 .transparent-black {
-  background-color: black
+  background: rgba(0,0,0,0.75);
 }
+
 
 #particles-js {
   top: 0;
@@ -68,4 +68,15 @@ hr.featurette-divider{
   margin-bottom: 50px;
   border: solid 4px black;
   border-radius: 2px; 
+}
+.services-section img {
+
+  margin: auto;    
+  display: block;
+}
+
+/* ---- servicios -----*/
+.servicios {
+  margin-top:200px;
+  background-image: url("img/fondo-op1.png");
 }

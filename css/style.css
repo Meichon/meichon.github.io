@@ -39,9 +39,7 @@ font-style: normal;
   background: rgba(0,0,0,0.75);
 }
 
-.servicios {
-  background-color: #383838;
-}
+
 #particles-js {
   top: 0;
   height: 100%;
@@ -70,4 +68,15 @@ hr.featurette-divider{
   margin-bottom: 50px;
   border: solid 4px black;
   border-radius: 2px; 
+}
+.services-section img {
+
+  margin: auto;    
+  display: block;
+}
+
+/* ---- servicios -----*/
+.servicios {
+  margin-top:200px;
+  background-image: url("img/fondo-op1.png");
 }
