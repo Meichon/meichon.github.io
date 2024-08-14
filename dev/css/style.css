@@ -78,5 +78,15 @@ hr.featurette-divider{
 /* ---- servicios -----*/
 .servicios {
   margin-top:200px;
-  background-image: url("img/fondo-op1.png");
+
+
 }
+/* --------------------------------------------------------------pruebas de imagen de fondo -----------------------
+.service .bg-image {
+background-image: url("../img/red250x47logo.png");
+background-repeat: no-repeat;
+background-position-y: 25%;
+opacity: 0.6;
+}
+
+*/

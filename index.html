@@ -10,6 +10,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
   </head>
 
   <body>
@@ -110,30 +113,30 @@
     </div>
 <!--quienes somos-->
 
-<div id="servicios" class="servicios">
-<div class="container h-100">
-  <div class="row  justify-content-center my-5 my-5">
-    <div class="col-md-6 col-lg-6 my-auto pt-4 mx-auto">
-      <h1 class="display-4 fw-bold  orbitron">Quienes Somos</h1>
-      <p clasS="p-4 fs-5">Consultora de servicios en Infraestructura de plataformas de alta concurrencia con soluciciones en ciberseguridad, conectividad, desarrollo web, Servicios Cloud y mas.</p>
-    </div><!--fin col 1-->
-    <div class="col-md-6 col-lg-6 my-auto mx-auto services-section">    
-      <img src="img/logotipo-Presentacion.png">
-    </div><!--fin col 2-->
-  </div><!--fin row-->
-  <hr>
-  <div class="row  justify-content-center my-5 py-5">
-    <div class="col-md-6 col-lg-6 my-auto mx-auto services-section">
-      <img src="img/fondo-op1Rojo150x150.png" style="width: 50%;" alt="Soluciones">
-    </div><!--fin col 1-->
-    <div class="col-md-6 col-lg-6 my-auto">
-      <h1 class="display-4 fw-bold orbitron">Soluciones</h1>
-      <p clasS="p-4 fs-5 justify-content-center">Ciberseguridad con integraciónes de plataformas de monitoreo, concientizacion, capacitaciones basadas en estandares internacionales y regulaciones nacionales </p>
-
-    </div><!--fin col 2-->
-  </div><!--fin row-->
-</div><!--fin container-->
-</div><!--fin servicio id-->
+<div id="servicios" class="servicios bg-body-tertiary">
+  <div class="container h-100 ">
+    <div class="row  justify-content-center my-5 my-5">
+      <div class="col-md-6 col-lg-6 my-auto pt-4 mx-auto">
+        <h1 class="display-4 fw-bold  orbitron">Quienes Somos</h1>
+        <p clasS="p-4 fs-5">Consultora de servicios en Infraestructura de plataformas de alta concurrencia con soluciciones en ciberseguridad, conectividad, desarrollo web, Servicios Cloud y mas.</p>
+      </div><!--fin col 1-->
+      <div class="col-md-6 col-lg-6 my-auto mx-auto services-section">    
+        <img src="img/logotipo-Presentacion.png" style="width:70%;">
+      </div><!--fin col 2-->
+    </div><!--fin row-->
+    <hr>
+    <div class="row  justify-content-center my-5 py-5">
+      <div class="col-md-6 col-lg-6 my-auto mx-auto services-section">
+        <img src="img/fondo-op1Rojo150x150.png" style="width: 30%;" alt="Soluciones">
+      </div><!--fin col 1-->
+      <div class="col-md-6 col-lg-6 my-auto">
+        <h1 class="display-4 fw-bold orbitron">Soluciones</h1>
+        <p clasS="p-4 fs-5 justify-content-center">Ciberseguridad con integraciónes de plataformas de monitoreo, concientizacion, capacitaciones basadas en estandares internacionales y regulaciones nacionales </p>
+  
+      </div><!--fin col 2-->
+    </div><!--fin row-->
+  </div><!--fin container-->
+  </div><!--fin servicio id-->
 <!--formulario de contacto-->
 
 <div id="formulario-contacto">
@@ -142,43 +145,51 @@
       <div class="col-md-6 my-auto mx-auto services-section">
         <h1 class="display-5 fw-bold orbitron">Consulta!, te esperamos.</h1>
         <img src="img/contacto1200x900.png" style="width:80%" alt="contacto">
-        <p clasS="p-4 fs-5 justify-content-center">Envianos un correo por medio del formulario y nos comunicaremos en breve.</p>
+        <p clasS="p-4 fs-5 justify-content-center">Envianos un correo a contacto@zbits.cl o completa el formulario con los datos de tu consulta.</p>
       </div>
-      <div class="col-md-6 border rounded p-4">
-        <form>
-          <div class="mb-3">
-            <label for="input_name" class="form-label">Nombre</label>
-            <input type="name" class="form-control" id="input_name" placeholder="Tu nombre">
+      <div class="col-md-6 p-4">
+        <div class="card">
+          <div class="card-header">
+            Formulario
           </div>
-          <div class="mb-3">
-            <label for="Input_lastname" class="form-label">Apellido</label>
-            <input type="email" class="form-control" id="Input_lastname" placeholder="Tu apellido">
+          <div class="card-body">
+            <h5 class="card-title">Completa tus datos</h5>
+            <p class="card-text">
+              <form>
+                <div class="mb-3">
+                  <label for="input_name" class="form-label">Nombre</label>
+                  <input type="name" class="form-control" id="input_name" placeholder="Tu nombre">
+                </div>
+                <div class="mb-3">
+                  <label for="Input_lastname" class="form-label">Apellido</label>
+                  <input type="email" class="form-control" id="Input_lastname" placeholder="Tu apellido">
+                </div>
+                <div class="mb-3">
+                  <label for="Input_enterprise" class="form-label">Empresa</label>
+                  <input type="email" class="form-control" id="Input_lastname" placeholder="evilcorp LTDA.">
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Correo</label>
+                  <input type="email" class="form-control" id="email" placeholder="nickname@dominio.com">
+                </div>
+                <div class="mb-3">
+                  <label for="number" class="form-label">Telefono</label>
+                  <input type="email" class="form-control" id="email" placeholder="+56 xxxx xxxx">
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Asunto</label>
+                  <input type="email" class="form-control" id="email" placeholder="Cotización">
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Mensaje</label>
+                  <textarea class="form-control" id="message" rows="3"></textarea>
+                </div>
+              </form>
+            </p>
+            <button type="button" class="btn btn-outline-danger">Enviar</button>
           </div>
-          <div class="mb-3">
-            <label for="Input_enterprise" class="form-label">Empresa</label>
-            <input type="email" class="form-control" id="Input_lastname" placeholder="evilcorp LTDA.">
-          </div>
-          <div class="mb-3">
-            <label for="email" class="form-label">Correo</label>
-            <input type="email" class="form-control" id="email" placeholder="nickname@dominio.com">
-          </div>
-          <div class="mb-3">
-            <label for="number" class="form-label">Telefono</label>
-            <input type="email" class="form-control" id="email" placeholder="+56 xxxx xxxx">
-          </div>
-          <div class="mb-3">
-            <label for="email" class="form-label">Asunto</label>
-            <input type="email" class="form-control" id="email" placeholder="Cotización">
-          </div>
-          <div class="mb-3">
-            <label for="message" class="form-label">Mensaje</label>
-            <textarea class="form-control" id="message" rows="3"></textarea>
-          </div>
-
-          <button type="button" class="btn btn-outline-danger">Enviar</button>
-          
-        </form>
-      </div>
+        </div>
+              </div>
     </div>
   </div>
 </div>

@@ -74,6 +74,14 @@ hr.featurette-divider{
   margin: auto;    
   display: block;
 }
+/*---formulario-contacto---*/
+
+.formulario-contacto{
+  margin-top: 500px;
+  border: 1px black;
+}
+
+
 
 /* ---- servicios -----*/
 .servicios {
