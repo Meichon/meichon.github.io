@@ -12,11 +12,11 @@ function enviarCorreo($nombre, $apellido, $correo, $asunto, $mensaje) {
   $mail->SMTPSecure = "tls"; // Seguridad SMTP
   $mail->SMTPAuth = true; // Autenticación SMTP
   $mail->Username = "info@zbits.cl"; // Usuario SMTP
-  $mail->Password = "M31ch0n3#"; // Contraseña SMTP
+  $mail->Password = "#"; // Contraseña SMTP
 
   // Configuración del correo
   $mail->setFrom($correo, $nombre . " " . $apellido);
-  $mail->addAddress("cn.lorca@gmail.com"); // Destinatario
+  $mail->addAddress("#"); // Destinatario
   $mail->Subject = $asunto;
   $mail->Body = $mensaje;
   $mail->isHTML(true); // Enviar como HTML
