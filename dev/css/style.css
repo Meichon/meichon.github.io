@@ -1,0 +1,92 @@
+body{
+font-family: "Oswald", sans-serif;
+font-optical-sizing: auto;
+
+font-style: normal;
+}
+
+
+.orbitron {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/*
+.section {
+  position: relative;
+  overflow: hidden;
+
+}
+
+.section-shaped {
+  position: relative;
+  overflow: hidden;
+}
+*/
+.page-header {
+  min-height: 75vh;
+  max-height: 999px;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  background-image: url('../img/datacenter1200x685.png'); 
+  background-size: cover;
+}
+
+.transparent-black {
+  background: rgba(0,0,0,0.75);
+}
+
+
+#particles-js {
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.boton {
+  z-index: 1;
+  position: relative;
+}
+#pie {
+margin-bottom: 0px;
+z-index:0px;
+}
+
+
+
+.section-market{
+  margin-top:100px;
+  margin-bottom: 100px;
+}
+
+hr.featurette-divider{
+  margin-top:50px;
+  margin-bottom: 50px;
+  border: solid 4px black;
+  border-radius: 2px; 
+}
+.services-section img {
+
+  margin: auto;    
+  display: block;
+}
+
+/* ---- servicios -----*/
+.servicios {
+  margin-top:200px;
+
+
+}
+/* --------------------------------------------------------------pruebas de imagen de fondo -----------------------
+.service .bg-image {
+background-image: url("../img/red250x47logo.png");
+background-repeat: no-repeat;
+background-position-y: 25%;
+opacity: 0.6;
+}
+
+*/
